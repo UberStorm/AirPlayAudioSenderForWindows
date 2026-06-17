@@ -38,13 +38,5 @@ This software was developed by **Maor Eliezer** to solve the pain point of using
 
 ---
 
-## 🛠️ How to Build (For Developers)
-
-If you want to compile the source code into an executable yourself, make sure you have Python 3.10+ installed and run the following command:
-
-```cmd
-pyinstaller --noconfirm --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --collect-all customtkinter --collect-all pystray --collect-all PIL --name AirPlayAudioSender main.py
-```
-
 ## 📝 License
 This project is provided "as is" and is free to use and distribute. Developed by Maor Eliezer.
