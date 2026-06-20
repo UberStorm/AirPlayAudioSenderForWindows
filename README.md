@@ -14,6 +14,8 @@ Developed with ❤️ by **Maor Eliezer**
 
 - **Seamless PC-to-HomePod Streaming**: Wirelessly push your Windows system audio to any AirPlay-compatible speaker on your network.
 - **Multiple Device Support**: Stream to multiple speakers at the very same time.
+- **True Stereo Pair Detection**: Automatically groups paired HomePods into a single entity (🔗) for effortless control, just like native Apple devices.
+- **Highly Optimized Audio Engine**: Uses smart VU meter throttling and peak-detection to keep background CPU usage near 0% while streaming.
 - **Smart Device Recognition**: Automatically detects and displays your specific device models (e.g., *HomePod mini*, *Apple TV 4K*).
 - **Independent Volume Control**: Individual, dynamic volume sliders for every single speaker you connect to.
 - **Real-Time Network Diagnostics**: Built-in ping monitor that displays your actual network latency and connection health (🟢/🟡/🔴) in real-time.
@@ -37,6 +39,14 @@ This software was developed by **Maor Eliezer** to solve the pain point of using
 5. Click **Connect** and enjoy!
 
 ---
+
+## 🛠️ How to Build (For Developers)
+
+If you want to compile the source code into an executable yourself, make sure you have Python 3.10+ installed and run the following command:
+
+```cmd
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --collect-all customtkinter --collect-all pystray --collect-all PIL --name AirPlayAudioSender main.py
+```
 
 ## 📝 License
 This project is provided "as is" and is free to use and distribute. Developed by Maor Eliezer.
