@@ -14,6 +14,7 @@ Developed with ❤️ by **Maor Eliezer**
 
 - **Seamless PC-to-HomePod Streaming**: Wirelessly push your Windows system audio to any AirPlay-compatible speaker on your network.
 - **Multiple Device Support**: Stream to multiple speakers at the very same time.
+- **Per-Application Audio Routing**: (New!) Select a specific application (e.g., Spotify, Chrome) from the drop-down menu to stream *only* that app's audio to your HomePod, while keeping system sounds on your PC. No virtual audio cables required!
 - **True Stereo Pair Detection**: Automatically groups paired HomePods into a single entity (🔗) for effortless control, just like native Apple devices.
 - **Intelligent "Zero-Stutter" CPU Priority**: Automatically elevates its own Windows process priority to `HIGH_PRIORITY_CLASS` during streaming, mathematically preventing background audio stutter even while gaming.
 - **Wi-Fi Mesh Network Diagnostics**: Built-in ping monitor that pings *both* your Router and your HomePod simultaneously, showing exactly where network lag is originating (`Router: 2ms → Speaker: 50ms 🟢`).
@@ -25,6 +26,19 @@ Developed with ❤️ by **Maor Eliezer**
 - **Minimize to System Tray**: Keep your desktop clean. The app can minimize to your Windows system tray and run silently in the background.
 - **Zero Configuration**: No complicated virtual audio cables or external dependencies required for basic streaming. Just open the app, click connect, and listen.
 - **Gorgeous UI Customization**: Built with `CustomTkinter`, featuring a sleek, dark-mode-first modern aesthetic with fluid animations.
+
+---
+
+## 🚀 How to Use
+
+1. Download the latest **`AirPlayAudioSender.exe`** from the [Releases](#) tab on the right.
+2. Ensure your Windows PC and your AirPlay speakers are on the **same Wi-Fi network**.
+3. Run the executable (no installation required!).
+4. Select your desired **Audio Source** (e.g., System Audio or a specific running app).
+5. Check the boxes next to the speakers you want to stream to.
+6. Click **Connect** and enjoy!
+
+---
 
 ## 💸 Completely Free
 
