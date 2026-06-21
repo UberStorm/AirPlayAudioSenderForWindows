@@ -46,13 +46,18 @@ This software was developed by **Maor Eliezer** to solve the pain point of using
 
 ---
 
-## 🚀 How to Use
+## 📜 Changelog
 
-1. Download the latest **`AirPlayAudioSender.exe`** from the [Releases](#) tab on the right.
-2. Ensure your Windows PC and your AirPlay speakers are on the **same Wi-Fi network**.
-3. Run the executable (no installation required!).
-4. Check the boxes next to the speakers you want to stream to.
-5. Click **Connect** and enjoy!
+### v1.2.0 (Latest)
+- **⚡ Faster Startup**: Re-engineered the initialization sequence to draw the UI instantly while heavy audio and network engines load smoothly in the background.
+- **✨ Auto-Optimize Latency Mode**: A smart new button in the Settings menu that calculates your current network ping (Router + Speaker) + jitter, and mathematically snaps your stream to the absolute lowest safe latency.
+- **🚀 Ultra-Low 75ms Floor**: Removed the old 100ms restriction. If your network is fast enough, the app now allows you to push latency all the way down to a blistering 75ms for near-instant playback! This is the lowest it will ever be.
+- **🟢 Robust Diagnostics**: Replaced unstable string-parsing with native `route print -4` to ensure the Router MS ping works perfectly across all international Windows locales (including Hebrew!). Added a `Total:` latency readout.
+
+### v1.1.0
+- **🎧 Ghost Volume**: Added the ability to mute a specific application (like Spotify) on your local PC speakers, while simultaneously streaming its audio to your HomePod! Perfect for listening to music while talking on Discord.
+- **🎨 UI Overhaul**: Redesigned the entire user interface to be fully responsive. Added a sleek new Settings window, dynamic Audio Level VU meter, and modernized layout elements.
+- **🔄 Auto-Refresh**: The app now automatically scans for Audio Sources and AirPlay devices the moment you open it.
 
 ---
 
